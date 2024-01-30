@@ -1,0 +1,37 @@
+#!/bin/bash
+while true; do
+
+echo "epico menu que hace cosas lolololoolol"
+echo "Que script quieres?"
+echo "1. Creacion de directorios loquitos"
+echo "2. Hola mundo!"
+echo "3. Hola mundo! (con variables)"
+echo "4. Adios."
+
+read OPC	
+
+case ${OPC} in
+	1)
+	mkdir -p DIRECTORIOS/grupo/archivos1
+	mkdir DIRECTORIOS/grupo/archivos2
+	mkdir DIRECTORIOS/grupo/archivos3
+	mkdir DIRECTORIOS/grupo/archivos4
+	
+	echo listo espero te guste pq a mi no
+	echo quieres verlos? aqui estan
+	ls -R
+	;;
+	2)
+	bash script1
+	;;
+	3)
+	bash script2
+	;;
+	4)
+	exit
+	;;
+	*)
+	echo "te pasas aqui no hay nada"
+	;;
+esac
+done
