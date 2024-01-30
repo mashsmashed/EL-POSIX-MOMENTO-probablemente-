@@ -13,4 +13,9 @@ la materia cursada en el la segunda mitad del primer ciclo de la universidad del
 
 que chido la verdad, en la wiki se encuentra el apartado de cada cosa
 
-mucha suerte!
+PODRAN PRESENCIAR COSAS GENIALES COMO.... MI MENU!!!!
+
+![grabacion1](https://github.com/mashsmashed/EL-POSIX-MOMENTO-probablemente-/assets/142301714/231bbeca-87cb-4eb2-b7e9-c57c5e019e2d)
+
+
+gracias por venir, y mucha suerte!
