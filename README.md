@@ -15,7 +15,6 @@ que chido la verdad, en la wiki se encuentra el apartado de cada cosa
 
 PODRAN PRESENCIAR COSAS GENIALES COMO.... MI MENU!!!!
 
-![grabacion1](https://github.com/mashsmashed/EL-POSIX-MOMENTO-probablemente-/assets/142301714/231bbeca-87cb-4eb2-b7e9-c57c5e019e2d)
-
+![VideoFinal](https://github.com/mashsmashed/EL-POSIX-MOMENTO-probablemente-/assets/142301714/785f4b38-70b3-4c46-9d62-8e052852a308)
 
 gracias por venir, y mucha suerte!
