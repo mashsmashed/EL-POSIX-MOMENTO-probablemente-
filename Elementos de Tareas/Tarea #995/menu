@@ -12,14 +12,23 @@ read OPC
 
 case ${OPC} in
 	1)
-	mkdir -p DIRECTORIOS/grupo/archivos1
-	mkdir DIRECTORIOS/grupo/archivos2
-	mkdir DIRECTORIOS/grupo/archivos3
-	mkdir DIRECTORIOS/grupo/archivos4
+	sudo mkdir -p /root/Home/user/biblia
+	sudo mkdir -p /root/uesr
+	sudo mkdir -p /root/urse
+	sudo mkdir -p /root/usuario/escritorio
+	sudo mkdir -p /root/hume/primito/cocomelon
+	sudo mkdir /root/Home/user/tareas
+	sudo mkdir /root/Home/user/tareas/las-de-tuxtter
+	sudo touch /root/Home/user/tareas/las-de-tuxtter/tarea-posix-xd.jpg /root/Home/user/tareas/las-de-tuxtter/ss-vm-linux.jpg /root/Home/user/tareas/las-de-tuxtter/carta-de-amor.txt	
+	sudo mkdir /root/Home/user/tareas/las-x
+	sudo touch /root/Home/user/tareas/las-x/proyecto-terminal.pdf
+	sudo touch /root/Home/user/biblia/corintios-4-16.txt /root/Home/user/biblia/efesios-1-3.pdf
+	sudo touch /root/uesr/test.txt /root/urse/test2.txt /root/usuario/escritorio/chrome.exe
+	sudo touch /root/hume/primito/cocomelon/SKIBIDI-TOILET-LA-PELI.mp4
+	sudo touch /root/hume/primito/cocomelon/Roblox.exe
 	
 	echo listo espero te guste pq a mi no
-	echo quieres verlos? aqui estan
-	ls -R
+	echo PAra verlos, tendras que entrar desde root. Suerte!
 	;;
 	2)
 	bash script1
