@@ -1,0 +1,21 @@
+#!/bin/bash
+
+PNOMBRE="MATEO AREVALO RODRIGUEZ"
+
+echo ${PNOMBRE}, pero si fuera solo una parte: ${PNOMBRE:5}, y si fuera un rango: ${PNOMBRE:5:7}
+
+SINVALOR=
+echo "Variable SINVALOR: ${SINVALOR:-31337} eta ${VACIO:-'mashsmash'}"
+echo "La variable SINVALOR no tiene valor algun ${SINVALOR}"
+
+echo "Variable SINVALOR: ${SINVALOR:=31337} eta ${VACIO:-'mashsmash'}"
+echo "La variable SINVALOR no tiene valor algun ${SINVALOR}"
+
+PVARIA='pasado'
+
+echo VALOR DE varia XD: ${PVARIA:+'tcdump'} y ahora es ${PVARIA}
+
+echo otro ejemplo, la variable tiene valor de ${PAPU:?'DANIEL'} Y AHORA... TIENE! ${PAPU}
+
+for i in ${!P*};do echo $i ;done
+

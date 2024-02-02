@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo esto es un codigo que solo sirve para ensenarnos a usar senales. SIgnals.
+
+funcion () {
+	echo SE RECIBIO UNA SIGNAL: ${FUNCNAME} ${0}
+	#exit
+}
+
+trap "funcion" INT QUIT TSTP
+
+while true
+do
+	sleep 2
+	echo "WOW, que ganas de dormir veda"
+done

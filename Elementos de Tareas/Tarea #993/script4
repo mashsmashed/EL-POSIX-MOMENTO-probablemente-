@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "checate mi array de animaciones chidas:"
+
+animacion[0]="THE IMITATOR"
+animacion[1]="INDIECROSS CHAPTER 1"
+animacion[2]="HAZBIN HOTEL"
+animacion[3]="ESCOTE PILGRINO"
+animacion[4]="VERBALASE"
+
+ULTRAKILL=("Sin sonido, sin memoria" "...Como antenas al paraiso" "El mundo se ve rojo" "ORDEN" "Roja y sangrienta oscuridad")
+
+echo ${animacion[1]} es una animacion q me gusta mucho, y suele pasar que una de mis canciones favoritas se llama ${ULTRAKILL[2]}
+
+echo Hay como $#animacion series que me gustan.
+echo Hay como $#ULTRAKILL canciones de ultrakill que me gustan.

@@ -1,0 +1,19 @@
+#!/bin/sh
+
+variable1=666
+nombre="Matinga"
+nombres="Gael Manuel Miguel Daniel Yael Gabriel Javier"
+bool=true
+
+echo "Wacha mis epicas variables"
+echo "numero chido: ${variable1}"
+echo "un nombre: ${nombre}"
+echo "unos cuantos nombres: ${nombres}"
+
+echo "...Aparentemente has invocado el script pasando ${0} eta ${1}"
+
+echo "Ha habido como $# argumentos"
+
+echo IDa: ${!} y $@
+
+echo "Mi directorio actual: ${PWD} y mi usuario ${UID}"

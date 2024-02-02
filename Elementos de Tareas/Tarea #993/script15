@@ -1,0 +1,29 @@
+#!/bin/bash
+
+echo esto es un ejercicio de funciones. FUNCIONARA???? quien sabe...
+
+RES=0
+
+muestrapantalla () {
+	echo "Valores son: $0> $1 y $2 y $3"
+}
+
+sumame () {
+	echo "estamos en la funcion ${FUNCNAME} "
+	echo "parametros: $1 y $2 "
+	RES= expr ${1} + ${2}
+	return 0
+}
+
+boom () {
+	echo "no ejecutes ESTO NUNCA gracias"
+	boom
+}
+
+muestrapantalla 3 4 "epa"
+
+sumame 45 67 && echo "OK" || echo "Ocurrio un error"
+
+echo "Resultado es sencillo: ${RES} $!"
+
+

@@ -1,0 +1,28 @@
+#!/bin/bash
+
+echo esto es un script de operaciones con bools, asi chido
+
+booleano= true
+
+$booleano && echo "OK" || echo "no es true"
+
+booleano2=!${booleano}
+
+# esto esta cool, literalmente estoy invirtiendo la primera variable bool.
+
+test ${booleano2} || echo "Ahora es falsificado"
+
+# Test literalmente es una clase de if
+
+num=6
+
+test $num -le 6 && echo "Se cumplio"
+
+new=${num}
+
+test ${new} -eq ${num} && echo "IGUALES JAJAJAJA"
+
+echo "AHora $new es lo mismo que $num"
+
+
+

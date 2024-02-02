@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo esto es un until
+
+cunt=15
+
+until (test $cunt -lt 0)
+do
+	cunt= expr $cunt - 1
+	echo valor del contador $cunt
+done
+
+echo valor FINAL es como $cunt o no se
