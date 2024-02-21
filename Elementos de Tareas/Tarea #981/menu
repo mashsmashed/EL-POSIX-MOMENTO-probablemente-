@@ -1,0 +1,74 @@
+#!/bin/bash
+while true; do
+
+echo "epico menu que hace cosas lolololoolol"
+echo "Que script quieres hacer? tengo toda una seleccion pero no los nombrare."
+echo "Quiero que sea sorpresaaaaaa, aparte puedes tu mismo ver cada script"
+echo "Inserta un numero de 1 a 18..."
+echo "o... puedes solo insertar e y te sacara del programa"
+
+read OPC	
+
+case ${OPC} in
+	1)
+	bash script1
+	;;
+	2)
+	bash script2
+	;;
+	3)
+	bash script3
+	;;
+	4)
+	bash script4
+	;;
+	5)
+	bash script5
+	;;
+	6)
+	bash script6
+	;;
+	7)
+	bash script7
+	;;
+	8)
+	bash script8
+	;;
+	9)
+	bash script9
+	;;
+	10)
+	bash script10
+	;;
+	11)
+	bash script11
+	;;
+	12)
+	bash script12
+	;;
+	13)
+	bash script13
+	;;
+	14)
+	bash script14
+	;;
+	15)
+	bash script15
+	;;
+	16)
+	bash script16
+	;;
+	17)
+	bash script17
+	;;
+	18)
+	bash script18
+	;;
+	e)
+	exit
+	;;
+	*)
+	echo "te pasas, aqui no hay nada"
+	;;
+esac
+done

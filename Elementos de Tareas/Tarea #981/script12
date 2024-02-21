@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo While en movimiento
+
+CUENTA=0
+
+while [ $CUENTA -lt 100 ]
+do
+	CUENTA=`expr $CUENTA + 10`
+	echo "VALOR DE CONTADOR: $CUENTA "
+done
+
+echo valor final fue $CUENTA

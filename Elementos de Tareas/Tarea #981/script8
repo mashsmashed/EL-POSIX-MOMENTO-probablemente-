@@ -1,0 +1,49 @@
+#!/bin/bash
+
+echo este script prueba los ifs, dios me bendiga
+
+num=45
+
+if [ $num -gt 0 ]; then
+	echo $num es mayor que 0 wow
+fi
+
+if [ -e /etc/shadow ]
+then
+	echo tienes... shadow? no se que es eso pero lo tienes
+fi
+
+num2=-23
+
+if [ $num2 -lt 0 ]
+then
+	echo $num2 es menor que 0
+else
+	echo $num2 es mayor que 0
+fi
+
+echo "ahora inserta valores"
+echo "inserta el primer numero xfavor"
+read N1
+echo "ahora inserta el segundo numero"
+read N2
+
+echo metiste $N1 y $N2
+
+if [ $N1 -gt $N2 ]
+then
+	echo $N1 es mayor que $N2
+elif [ $N1 -lt $N2 ]
+then
+	echo $N1 es menor que $N2
+else
+	echo $N1 y $N2 son iguales.... que sorpresa
+fi
+
+
+# IMPORTANTE, TEST EJECUTA X COSA SI LA CONDICION PUESTA OCURRE O NO
+# TEST X || Y CORRE Y SI X NO SE CUMPLE
+# TEST X && Y CORRE Y SI X SE CUMPLE
+
+test -f './fichero.txt' || touch fichero.txt
+

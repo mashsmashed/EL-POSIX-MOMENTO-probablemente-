@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo esto solo es un case
+
+echo dame un numero de 1 al 3, sera simple
+
+read opc
+
+case $opc in
+	1)
+	echo APD ARDILLAS POR DOQUIER
+	;;
+	2)
+	echo POW CHICA POW POW
+	;;
+	3)
+	echo es un mamifero semiacuatico agente
+	;;
+	*)
+	echo ME FALLASTE DE NUEVO vete
+esac

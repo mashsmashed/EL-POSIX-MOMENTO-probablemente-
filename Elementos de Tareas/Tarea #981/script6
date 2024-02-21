@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo checate mis sumas
+
+N1=23
+N2=45
+
+RES= expr ${N1} + ${N2}
+echo "TU RESULTADO 1: ${RES}"
+
+RES= expr ${N1} + ${N2} + 3
+echo "TU RESULTADO 2: ${RES}"
+
+N1=5
+N2=4
+
+echo "cambie las variables, ahora sumamos ${N1} y ${N2}"
+
+RES= $[ ${N1} + ${N2} + 2 ]
+echo wacha: ${N1} + ${N2} + 2 = ${RES}
+
+RES= $[ ${N1} + ${N2} * 3 ]
+echo wacha: ${N1} + ${N2} * 3 = ${RES}

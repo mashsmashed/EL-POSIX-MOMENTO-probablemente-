@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo algo on las librerias, aveces.
+
+source script15
+
+# de hecho, aqui deberia ser "Script 15.sh", pero nunca lo configure para que de hecho cargara mi codigo de sumas. AUn asi, puedo intentarlo
+
+muestrapantalla 9 850 "sasalele"
+
+sumame 69 69 && echo OK || echo ERROR
+
+echo "Resultado: ${RES} $!"
+
+

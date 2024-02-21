@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo esto es una estructura select
+
+DISTROS="Debian Ubuntu Navarrux Gentoo Mandriva"
+
+echo "selecciona la mejor opcion por favor: ${resultado}"
+
+select resultado in ${DISTROS}
+do
+[ ${#resultado} -ne 0 ] && break
+
+echo "Selecciona la mejor opcion por favor : ${resultado}"
+
+done
+
+echo "Sistema seleccionado: [${resultado}]    longitud de la cadena: ${#resultado}"

@@ -1,0 +1,38 @@
+#!/bin/bash
+
+echo hora del for
+
+for i in a b c d e f g h i
+do
+	echo letra:$i
+done
+
+PJHSR="Himeko Ruan_Mei Jing_Yuan Fu_Xuan Silverwolf"
+echo for pero para un array
+
+echo PERSONAJES DE STAR RAIL Q ME GUSTAN:
+for i in $PJHSR
+do
+	echo $i ,
+done
+
+echo for que resulta en un... comando?
+
+for i in cat direcciones.txt
+do
+	echo $i
+done
+
+echo for que saca un grupo de ficheros chidos
+
+for i in *.sh
+do
+	ls -lh $i
+done
+
+echo for que esta codificado como si fuera C (MUY INCONVENIENTE)
+
+for ((cont=0 ; $cont < 10 ; cont= expr $cont + 1))
+do
+	echo Ahora valgo como $cont
+done

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo comprobador de ficheros
+
+if [ -e $1 ] && [ -f $1 ]
+then
+	echo fichero existe, exitosamente validado
+else 
+	echo no existe jajaja XDXDXDXD
+fi
+
+#esto solo es el codigo pero negado, con !
+
+if [ ! -e $1 ]
+then
+	echo no existe
+fi

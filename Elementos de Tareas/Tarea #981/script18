@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo Este script solo cambia de color la terminal. Sin embargo, no voy a escribir TODOS los codigos de colores, asi que disfruta de una linda terminal color... MORADO AJAJAJJAJAJA
+
+echo -e "\033[40m\033[35m  Purpura         \033[0m"
+
+echo -e "\033[42m\033[31m  NAVARRUX 1.0       \033[0m"
+
+echo -e "\033[40m\033[4;33m  amarello       \033[0m"
