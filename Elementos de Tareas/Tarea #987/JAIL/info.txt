@@ -1,0 +1,15 @@
+HOLA! bienvenido a mi jail. Tendras que desencriptar el mensaje de el archivo KEY.enc. Uno de los archivos tiene la llave correcta. Lee mis raros acertijos y encuentralas
+
+Mucha suerte!
+
+Aqui tienes unas pistas para lograr solucionarlo:
+
+-openssl es un comando muy chido
+
+-necesitas 2 llaves.
+
+-EL metodo lo tiene en su posesion el primer pecador. Alguien que le dio el regalo prohibido del conocimiento a la humanidad. Fue encadenado a una piedra por una eternidad mientras un aguila destrozaba su cuerpo.
+
+-La llave me la quito Melina.
+
+-Dolar c:
